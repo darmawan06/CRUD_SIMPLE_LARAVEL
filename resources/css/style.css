@@ -1,0 +1,396 @@
+/* Color declaration */
+:root {
+    --primary: ;
+    --secondary-one: ;
+    --secondary-two: ;
+    --black: ;
+    --white: ;
+    --grey: ;
+
+    --font-1: ;
+    --font-2: ;
+}
+
+body{
+    background-color: red;
+}
+/* Font Declaration */
+.header1 {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header3 {
+    font-size: 20px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.body1 {
+    font-size: 16px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+
+.body2 {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+/* End Font Declaration */
+
+
+/* text color declaration */
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary-one {
+    color: var(--secondary-one);
+}
+
+.color-secondary-two {
+    color: var(--secondary-two);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+/* End Text Color Declaration */
+
+
+
+/* Button Declaration */
+.button-layout {
+    background-color: var(--secondary-one);
+    border-radius: 24px;
+    color: var(--white);
+    font-family: var(--font-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 24px;
+    letter-spacing: normal;
+    text-transform: none;
+    transition: .2s ease;
+    line-height: normal;
+}
+
+.button-layout:hover,
+.button-layout.footer-button:hover {
+    filter: brightness(.90);
+}
+/* End Button Declaration */
+
+/* Utils */
+
+/* End Utils */
+
+
+/* Navbar */
+.navbar-scrolled {
+    background-color: var(--accent) !important;
+}
+
+/* Header */
+.header-bg {
+    background: url(../assets/img/header-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-header {
+    padding-top: 12rem;
+}
+
+
+/* Keunggulan Perusahaan - keper */
+#keunggulanPerusahaan {
+    margin-top: 48px;
+}
+/* End Keunggulan Perusahaan - keper */
+
+
+/* Keunggulan Produk - kepro */
+#keunggulanProduk {
+    margin-top: 48px;
+}
+/* End Keunggulan Produk - kepro */
+
+
+/* Gambar Proses - gapro */
+#gambarProses {
+    margin-top: 48px;
+}
+/* End Gambar Proses - gapro */
+
+
+/* Tentang Kami - teka */
+#tentangKami {
+    margin-top: 48px;
+}
+/* End Tentang Kami - teka */
+
+
+/* Kenapa Harus Beli Kepada Kami - keha */
+#kenapaHarusBeliKepadaKami {
+    margin-top: 48px;
+}
+/* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+/* Testimoni - testimoni */
+#testimoni {
+    margin-top: 48px;
+}
+/* End Testimoni - testimoni */
+
+
+/* Daftar Produk - dapro */
+#daftarProduk {
+    margin-top: 48px;
+}
+/* End Daftar Produk - dapro */
+
+
+/* Footer */
+.footer-bg {
+    background: url(../assets/img/footer-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+
+.footer-button {
+    font-size: 3.0519rem;
+    font-family: var(--font-1);
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 767.98px) {
+
+
+    /* Font Declaration */
+    .header1 {
+        font-size: 26px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header2 {
+        font-size: 22px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header3 {
+        font-size: 18px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .body1 {
+        font-size: 14px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+
+    .body2 {
+        font-size: 10px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+    /* End Font Declaration */
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+
+
+    
+    /* Keunggulan Perusahaan - keper */
+
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    /* Footer */
+    .button-layout.footer-button {
+        font-size: 2.027rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    #layoutDefault,
+    #layoutDefault_footer {
+        overflow-x: hidden;
+    }
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+    .navbar {
+        background-color: var(--accent) !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Header */
+    .header-bg {
+        height: auto;
+    }
+
+    
+    /* Keunggulan Perusahaan - keper */
+
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+
+    /* Footer */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+
+
+    
+    /* Keunggulan Perusahaan - keper */
+
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    
+    /* Footer */
+
+}
